@@ -17,3 +17,8 @@
 - Implements SBERT models ("allenai-specter" and "all-MiniLM-L6-v2") to create document embeddings, and uses TF-IDF and TF to create word-level embeddings
 - Constructs a search engine based on cosine similarity, dot product, euclidean distance, and geometric mean scores to handle and test query functionality
 - Evaluates search effectiveness using metrics such as Recall@1 and Mean Reciprocal Rank (MRR)
+
+### Recipe Recommendation
+- Developed a content-based recipe recommender using TF-IDF and cosine similarity.
+- Enhanced results with RAG for richer, context-aware recipe insights.
+- Combined structured retrieval with generative refinement for personalized outputs.
